@@ -1,0 +1,4 @@
+baseURL = 'rathtakrit.me/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
