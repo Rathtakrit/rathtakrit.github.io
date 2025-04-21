@@ -1,5 +1,6 @@
-baseURL = "https://examplesite.com/"
-title = "ExampleSite"
+baseURL = "https://rathtakrit.me/"
+title = "Kritarath Thipsoonthonsak"
+languageCode = "en-us"
 theme = "PaperModX"
 enableRobotsTXT = true
 buildDrafts = false
@@ -74,16 +75,21 @@ tocopen = false
   Content = "Welcome to my blog"
 
   [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
+  name = "github-simple"
+  url = "https://github.com/Rathtakrit"
+    
+  [[params.socialIcons]]
+  name = "mdi-email"
+  url = "mailto:kritarath.thipsoonthonsak@connect.polyu.hk"
 
   [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
+  name = "linkedin-simple"
+  url = "https://www.linkedin.com/in/kritarath-thipsoonthonsak-a62499256/"
 
   [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
+  name = "cv"
+  url = ""
+
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -115,24 +121,18 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "categories"
-name = "categories"
+name = "Categories"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
 identifier = "tags"
-name = "tags"
+name = "Tags"
 url = "/tags/"
 weight = 20
 
 [[menu.main]]
 identifier = "gallery"
-name = "gallery"
+name = "Gallery"
 url = "/tags/"
 weight = 20
-
-[[menu.main]]
-identifier = "CV"
-name = "CV"
-url = "https://example.org"
-weight = 30
