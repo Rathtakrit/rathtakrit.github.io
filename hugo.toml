@@ -8,6 +8,11 @@ buildExpired = false
 pygmentsUseClasses = true
 googleAnalytics = "UA-123-45"
 
+[caches]
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "72h"
+
 [minify]
 disableXML = true
 minifyOutput = true
