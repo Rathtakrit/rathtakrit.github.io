@@ -14,7 +14,9 @@
       
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Desc Text.</description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <content:encoded><![CDATA[<h2 id="sub-bro">Sub bro</h2>
+<p>Skibidi</p>
+]]></content:encoded>
     </item>
     
   </channel>

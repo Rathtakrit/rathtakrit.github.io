@@ -13,8 +13,18 @@
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Desc Text.</description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description>this is the 1st post, what do you want more from it?</description>
+      <content:encoded><![CDATA[<h1 id="header-1">Header 1</h1>
+<h1 id="header-2">Header 2</h1>
+<ul>
+<li>Some list1</li>
+<li>Some list2</li>
+<li>Some list3
+Ssometextsometextsometextseomtext</li>
+</ul>
+<h3 id="header-3">Header 3</h3>
+<p>I would like to order something idk</p>
+]]></content:encoded>
     </item>
     
   </channel>

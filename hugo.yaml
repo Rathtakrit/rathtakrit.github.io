@@ -19,6 +19,7 @@ params:
   env: production
   title: Rathtakrit
   description: created by Kritarath
+  TocSide: 'right'  
   keywords:
     - Computer Science
     - Philsophy
@@ -41,7 +42,6 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
   tocopen: false
   assets:
     favicon: resources/_gen/assets/assets/favicon.ico
