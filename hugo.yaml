@@ -82,7 +82,7 @@ params:
     - name: linkedin-simple
       url: https://www.linkedin.com/in/kritarath-thipsoonthonsak-a62499256/
     - name: cv
-      url: ""
+      url: "assets/css/CV.pdf"
   cover:
     hidden: true
     hiddenInList: true
