@@ -28,20 +28,26 @@ params:
   DisableLanguageSwitch: true
 
   homeInfoParams:
-    Title: "Hi there 👋, I'm Kiwi🥝"
-    Content: >
-      Welcome to my website! I am an industrial engineering student, 
-      I will be sharing cool projects and insights related to technology, philosophy, and self-improvement!
+    Title: "🥝 Kiwi, Kritarath Thipsoonthonsak"
+    Content: |
+      Howdy! 👋 I'm an **Industrial Engineering** student at the Hong Kong Polytechnic University, with big dreams of stepping into a management role at a tech company. 🚀 To chase that dream, I've embarked on an exciting self-taught journey into the world of Computer Science. Along the way, I'll be sharing my progress, cool stuff, and lessons I learned—so stay tuned!
 
+      - **Passions:** Exploring computer science, diving into new technologies, Machine Learning, AI, philosophy, self-improvement, and productivity hacks. 💡
+      - **Fun Fact:** I also host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**. 🎙️
+      
+      Let's learn, grow, and have fun together! 🌟
+      
   socialIcons:
-    - name: github-simple
-      url: https://github.com/Rathtakrit
-    - name: mdi-email
-      url: mailto:kritarath.thipsoonthonsak@connect.polyu.hk
-    - name: linkedin-simple
-      url: https://www.linkedin.com/in/kritarath-thipsoonthonsak-a62499256/
     - name: cv
       url: "assets/CV.pdf"
+    - name: github-simple
+      url: https://github.com/Rathtakrit
+    - name: youtube
+      url: https://www.youtube.com/@rathtakrit
+    - name: linkedin-simple
+      url: https://www.linkedin.com/in/kritarath-thipsoonthonsak-a62499256/
+    - name: mdi-email
+      url: mailto:kritarath.thipsoonthonsak@connect.polyu.hk
 
 menu:
   main:
@@ -56,4 +62,8 @@ menu:
     - identifier: gallery
       name: Gallery
       url: /gallery/
+      weight: 3
+    - identifier: podcast
+      name: Listen to my Podcast!
+      url: 'https://www.youtube.com/@soundtasteder'
       weight: 3

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lar on Rathtakrit</title>
+    <link>http://localhost:1313/tags/lar/</link>
+    <description>Recent content in Lar on Rathtakrit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Apr 2025 14:55:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/lar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>If AGI is Created, What Moral Obligations Are We Bound to Them?</title>
+      <link>http://localhost:1313/posts/third/</link>
+      <pubDate>Mon, 28 Apr 2025 14:55:02 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/third/</guid>
+      <description>exampleexample</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
