@@ -1,14 +1,14 @@
-baseURL: https://rathtakrit.me/
 title: Rathtakrit
+baseURL: https://rathtakrit.me/
 languageCode: en-us
 theme: PaperModX
-googleAnalytics: UA-123-45
-caches:
-  images:
-    dir: :resourceDir/_gen
-    maxAge: 72h
+
+enableRobotsTXT: true
+enableEmoji: true
+
+
 params:
-  env: production
+  EnableInstantClick: true
   title: Rathtakrit
   description: created by Kritarath
   TocSide: 'right'  
@@ -18,33 +18,14 @@ params:
     - Blog
     - Portfolio
     - PaperModX
-  author: Me
-  images:
-    - <link or path of image for opengraph, twitter-cards>
+  author: Kritarath Thipsoonthonsak
   DateFormat: January 2, 2006
   defaultTheme: white
   ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
-  hidemeta: false
-  hideSummary: false
-  tocopen: false
-  favicon: true
-  assets:
-    favicon: '/assets/assets/favicon.ico'
-    favicon16x16: 'assets/assets/favicon-16x16.png'
-    favicon32x32: '/assets/assets/favicon-32x32.png'
-    apple_touch_icon: '/assets/assets/apple-touch-icon.png'
-    safari_pinned_tab: '/assets/assets/safari-pinned-tab.svg'
-  label:
-    text: Home
-    icon: resources/_gen/assets/assets/apple-touch-icon.png
-    iconHeight: 35
-
+  favicon: favicon.ico
+  DisableLanguageSwitch: true
 
   homeInfoParams:
     Title: "Hi there 👋, I'm Kiwi🥝"
@@ -62,34 +43,17 @@ params:
     - name: cv
       url: "assets/CV.pdf"
 
-  cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys:
-      - title
-      - permalink
-      - summary
-      - content
 menu:
   main:
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 1
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 2
     - identifier: gallery
       name: Gallery
       url: /gallery/
-      weight: 20
+      weight: 3

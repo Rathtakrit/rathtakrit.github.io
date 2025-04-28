@@ -1,8 +1,8 @@
-+++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = '{{ .Date }}'
-draft = true
-
-author = "Me"
-
-+++
+---
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: '{{ .Date }}'
+draft : true
+tags : []
+showToc: true
+description : "exampleexampleexample"
+---
