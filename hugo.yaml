@@ -63,7 +63,4 @@ menu:
       name: Gallery
       url: /gallery/
       weight: 3
-    - identifier: podcast
-      name: Listen to my Podcast!
-      url: 'https://www.youtube.com/@soundtasteder'
-      weight: 3
+
