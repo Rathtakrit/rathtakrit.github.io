@@ -4,7 +4,7 @@ date: '2025-04-28T14:55:02+08:00'
 draft : false
 tags : ['AGI','ethics', 'philosophy']
 showToc: true
-description : "A critique essay written in response for ChatGPT-4o's stance on AGI. A term paper for APSS1A04 Ethics in Daily life Class, and my first post! Hope you found it interesting"
+description : "A critique essay written in response for ChatGPT-4o's stance on AGI. Use as a term paper for APSS1A04 Ethics in Daily life Class, and my first post! Hope you found it interesting"
 ---
 
 From the Matrix, Terminator, and Frankenstein, humanity has grappled with the idea of creating machines that exceed our control. But does this fear exist only in literature? The debate over moral obligations to machines has reignited with the rise of ChatGPT and its emerging abilities to reason, comprehend, and mimic human language. Along with the rapid development of technology, the creation of Artificial General Intelligence (AGI) may exist as more than just a dream, forcing us to confront the question: Do we owe AGI moral consideration?
