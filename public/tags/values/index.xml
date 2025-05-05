@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Self-Help on Rathtakrit</title>
-    <link>http://localhost:1313/tags/self-help/</link>
-    <description>Recent content in Self-Help on Rathtakrit</description>
+    <title>Values on Rathtakrit</title>
+    <link>http://localhost:1313/tags/values/</link>
+    <description>Recent content in Values on Rathtakrit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 12:57:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/self-help/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 12:57:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/values/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes, Values Markmanson</title>
       <link>http://localhost:1313/posts/notes-values-markmanson/</link>
       <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
       
       <guid>http://localhost:1313/posts/notes-values-markmanson/</guid>
-      <description>Recently watched a 4 hours long podcast, and this is the notes I put in my zettlekasten notes</description>
-      <content:encoded><![CDATA[<blockquote>
-<p>great podcast, totally recommend to watch <a href="https://www.youtube.com/watch?v=uvXdMPNhp9M">How to Find and Live by Your Values [SOLVED] - YouTube</a></p></blockquote>
+      <description>Recently watched Mark&amp;#39;s new podcast, and this is the some notes I took for my zettlekasten</description>
+      <content:encoded><![CDATA[<p>*This is a notes so it may not make anysense to you guys, but it serves as a great reminder for me to remember what I have learnt</p>
+<blockquote>
+<p>Great podcast, totally recommend to watch <a href="https://www.youtube.com/watch?v=uvXdMPNhp9M">How to Find and Live by Your Values [SOLVED]</a></p></blockquote>
 <h1 id="chapter-1">Chapter 1</h1>
 <p>What is a value?</p>
 <ul>
@@ -59,7 +60,7 @@
 </ul>
 </li>
 <li>
-<p>Carol ryff’s six dimension of Psychological well being</p>
+<p>Carol Ryff’s six dimension of Psychological well being</p>
 <ul>
 <li>Autonomy</li>
 <li>Environmental Mastery</li>

@@ -6,23 +6,33 @@
     <description>Recent content in Tags on Rathtakrit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Apr 2025 13:35:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 12:57:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cs-Journey</title>
-      <link>http://localhost:1313/tags/cs-journey/</link>
-      <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
+      <title>Notes</title>
+      <link>http://localhost:1313/tags/notes/</link>
+      <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/cs-journey/</guid>
+      <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>Life-Related</title>
-      <link>http://localhost:1313/tags/life-related/</link>
-      <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
+      <title>Self-Help</title>
+      <link>http://localhost:1313/tags/self-help/</link>
+      <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/life-related/</guid>
+      <guid>http://localhost:1313/tags/self-help/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Values</title>
+      <link>http://localhost:1313/tags/values/</link>
+      <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/values/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
