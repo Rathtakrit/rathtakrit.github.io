@@ -3,6 +3,7 @@ title: 'Notes, Values Markmanson'
 date: '2025-05-05T12:57:59+08:00'
 # draft : true
 tags : ["self-help","values","notes"]
+categories: ["notes"]
 showToc: true
 description : "Recently watched Mark's new podcast, and this is the some notes I took for my zettlekasten"
 ---

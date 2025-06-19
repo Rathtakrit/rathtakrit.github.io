@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Self-Help on Rathtakrit</title>
-    <link>http://localhost:1313/tags/self-help/</link>
-    <description>Recent content in Self-Help on Rathtakrit</description>
+    <title>Notes on Rathtakrit</title>
+    <link>http://localhost:1313/categories/notes/</link>
+    <description>Recent content in Notes on Rathtakrit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 12:57:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/self-help/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 12:57:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes, Values Markmanson</title>
       <link>http://localhost:1313/posts/notes-values-markmanson/</link>
