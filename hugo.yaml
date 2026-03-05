@@ -39,7 +39,7 @@ params:
       
   socialIcons:
     - name: cv
-      url: "assets/CV.pdf"
+      url: "assets/2026_Kritarath_Thipsoonthonsal_CV.pdf"
     - name: github-simple
       url: https://github.com/Rathtakrit
     - name: youtube
