@@ -1,0 +1,5 @@
+{{- /* Override: getJSON removed in Hugo 0.155+. Fallback to link. */ -}}
+<div class="tweet-ref">
+  {{- $url := .Get 0 -}}
+  From <a href="{{ $url }}" target="_blank" rel="noopener">{{ strings.TrimPrefix "https://" $url }}</a>
+</div>

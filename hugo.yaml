@@ -6,22 +6,38 @@ theme: PaperModX
 enableRobotsTXT: true
 enableEmoji: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   EnableInstantClick: true
+  EnableImageZoom: true
   title: Rathtakrit
   description: created by Kritarath
-  TocSide: 'right'  
+  TocSide: 'right'
+  mainSections:
+    - blog
+    - essays
   keywords:
     - Computer Science
-    - Philsophy
+    - Philosophy
     - Blog
     - Portfolio
-    - PaperModX
   author: Kritarath Thipsoonthonsak
   DateFormat: January 2, 2006
   defaultTheme: white
   ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
   disableScrollToTop: false
   comments: false
   favicon: favicon.ico
@@ -34,12 +50,12 @@ params:
 
       - **Interest:**  computer science, new tech, AI, philosophy, self-improvement, productivity, and life update!
       - **Fun Fact:** I also host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**. 🎙️
-      
+
       *To living determingly*
-      
+
   socialIcons:
     - name: cv
-      url: "assets/2026_Kritarath_Thipsoonthonsal_CV.pdf"
+      url: "/cv/2026_Kritarath_Thipsoonthonsal_CV.pdf"
     - name: github-simple
       url: https://github.com/Rathtakrit
     - name: youtube
@@ -51,16 +67,23 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: blog
+      name: Blog
+      url: /blog/
       weight: 1
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: essays
+      name: Essays
+      url: /essays/
       weight: 2
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
     - identifier: gallery
       name: Gallery
       url: /gallery/
-      weight: 3
-
+      weight: 4
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
