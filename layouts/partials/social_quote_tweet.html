@@ -1,0 +1,11 @@
+{{- /* Override: getJSON removed in Hugo 0.155+. Use resources.GetRemote instead. */ -}}
+<div class="tweet social-quote">
+  <div class="title">
+    {{ safeHTML (index site.Data.svg "twitter-simple") }}
+    {{ with .title }}<span>{{ . }}</span>{{ end }}
+  </div>
+  {{- $url := printf "https://twitter.com/%v/status/%v" .user .id -}}
+  <blockquote>
+    <a href="{{ $url }}" target="_blank" rel="noopener">View tweet by @{{ .user }}</a>
+  </blockquote>
+</div>

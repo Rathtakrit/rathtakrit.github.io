@@ -1,0 +1,28 @@
+{{- define "main" }}
+<article class="post-single about-page">
+  <div class="about-hero">
+    {{- $img := .Resources.GetMatch "profile*" }}
+    {{- if $img }}
+    <img class="about-photo" src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+    {{- end }}
+    <div class="about-intro">
+      <h1>{{ .Title }}</h1>
+      <p class="about-tagline">Industrial & Systems Engineering @ PolyU, Hong Kong</p>
+      <div class="about-actions">
+        <a href="/cv/2026_Kritarath_Thipsoonthonsal_CV.pdf" class="button cv-download" download>
+          Download CV (PDF)
+        </a>
+      </div>
+      <div class="about-social">
+        {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg) -}}
+      </div>
+    </div>
+  </div>
+
+  {{- if .Content }}
+  <div class="post-content about-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+</article>
+{{- end }}

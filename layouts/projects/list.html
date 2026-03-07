@@ -1,0 +1,51 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Pages }}
+<div class="projects-grid">
+  {{- range .Pages.ByWeight }}
+  <article class="project-card">
+    {{- $cover := (.Resources.ByType "image").GetMatch "*cover*" }}
+    {{- if $cover }}
+    <div class="project-cover">
+      <a href="{{ .Permalink }}">
+        <img loading="lazy" src="{{ $cover.RelPermalink }}" alt="{{ .Title }}">
+      </a>
+    </div>
+    {{- end }}
+    <div class="project-content">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{- with .Description }}
+      <p class="project-description">{{ . }}</p>
+      {{- end }}
+      {{- with .Params.tech }}
+      <div class="project-tech">
+        {{- range . }}
+        <span class="tech-tag">{{ . }}</span>
+        {{- end }}
+      </div>
+      {{- end }}
+      {{- with .Params.links }}
+      <div class="project-links">
+        {{- with .github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+        {{- with .demo }}<a href="{{ . }}" target="_blank" rel="noopener">Demo</a>{{ end }}
+        {{- with .paper }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+      </div>
+      {{- end }}
+    </div>
+  </article>
+  {{- end }}
+</div>
+{{- else }}
+<div class="post-content">
+  <p>Projects coming soon. Stay tuned!</p>
+</div>
+{{- end }}
+{{- end }}
