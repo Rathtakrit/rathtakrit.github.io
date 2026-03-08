@@ -13,7 +13,18 @@
   {{- range .Pages.ByWeight }}
   <article class="project-card">
     {{- $cover := (.Resources.ByType "image").GetMatch "*cover*" }}
-    {{- if $cover }}
+    {{- if .Params.youtube_preview }}
+    <div class="project-video">
+      <iframe
+        loading="lazy"
+        src="https://www.youtube.com/embed/{{ .Params.youtube_preview }}{{ with .Params.youtube_start }}?start={{ . }}{{ end }}"
+        title="{{ .Title }} preview"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    {{- else if $cover }}
     <div class="project-cover">
       <a href="{{ .Permalink }}">
         <img loading="lazy" src="{{ $cover.RelPermalink }}" alt="{{ .Title }}">

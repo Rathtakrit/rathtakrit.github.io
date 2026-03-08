@@ -16,44 +16,44 @@ layout: "gallery"
 #     width: 1200
 #     height: 1800
 photos:
-  - src: "/gallery/1000019354.jpg"
+  - src: "/gallery/1000019354.webp"
     alt: "Landscape photo"
-    width: 3813
-    height: 2145
-  - src: "/gallery/1000019373.jpg"
+    width: 2000
+    height: 1126
+  - src: "/gallery/1000019373.webp"
     alt: "Portrait photo"
-    width: 3024
-    height: 4032
-  - src: "/gallery/1000019402.jpg"
+    width: 2000
+    height: 2667
+  - src: "/gallery/1000019402.webp"
     alt: "Portrait photo"
-    width: 3024
-    height: 4032
+    width: 2000
+    height: 2667
   - src: "/gallery/IMG_20240705_120651_545.webp"
     alt: "Summer 2024"
     width: 1440
     height: 810
-  - src: "/gallery/KW_01285.JPG"
+  - src: "/gallery/KW_01285.webp"
     alt: "Photo by Kiwi"
-    width: 1616
-    height: 1080
-  - src: "/gallery/KW_02611.JPG"
+    width: 2000
+    height: 1337
+  - src: "/gallery/KW_02611.webp"
     alt: "Photo by Kiwi"
-    width: 1783
-    height: 3466
-  - src: "/gallery/KW_07297.jpg"
+    width: 2000
+    height: 3888
+  - src: "/gallery/KW_07297.webp"
     alt: "Photo by Kiwi"
-    width: 2832
-    height: 2832
-  - src: "/gallery/KW_07336.jpg"
+    width: 2000
+    height: 2000
+  - src: "/gallery/KW_07336.webp"
     alt: "Photo by Kiwi"
-    width: 5664
-    height: 8480
-  - src: "/gallery/KW_07368.jpeg"
+    width: 2000
+    height: 2995
+  - src: "/gallery/KW_07368.webp"
     alt: "Photo by Kiwi"
-    width: 4240
-    height: 2832
-  - src: "/gallery/KW_07654.jpg"
+    width: 2000
+    height: 1336
+  - src: "/gallery/KW_07654.webp"
     alt: "Photo by Kiwi"
-    width: 3245
-    height: 5768
+    width: 2000
+    height: 3556
 ---
