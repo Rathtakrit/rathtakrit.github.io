@@ -52,6 +52,33 @@
   color: var(--accent-dark) !important;
 }
 
+/* Nav menu hover and active states */
+#menu a:hover {
+  color: var(--accent);
+}
+
+#menu .active {
+  color: var(--accent);
+  box-shadow: 0 2px 0 var(--accent);
+}
+
+#menu a.active:hover {
+  color: var(--accent);
+}
+
+.dark #menu a:hover {
+  color: var(--accent-dark);
+}
+
+.dark #menu .active {
+  color: var(--accent-dark);
+  box-shadow: 0 2px 0 var(--accent-dark);
+}
+
+.dark #menu a.active:hover {
+  color: var(--accent-dark);
+}
+
 /* Headings in post content */
 .post-content h2,
 .post-content h3 {
