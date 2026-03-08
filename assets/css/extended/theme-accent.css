@@ -162,6 +162,11 @@
   border-bottom: 1px solid var(--border);
 }
 
+/* Reduce spacing between Welcome title and Howdy content */
+.first-entry .entry-header {
+  margin-bottom: 8px;
+}
+
 /* Homepage sections */
 .home-section {
   margin: 40px 0;
