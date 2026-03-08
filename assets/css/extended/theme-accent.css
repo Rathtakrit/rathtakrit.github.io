@@ -1,0 +1,299 @@
+/* Red + Black/White Accent Theme */
+:root {
+  --accent: #c0392b;
+  --accent-hover: #a93226;
+  --accent-light: rgba(192, 57, 43, 0.08);
+  --accent-dark: #e74c3c;
+  --accent-dark-hover: #ff6b6b;
+
+  /* Override PaperModX link colors */
+  --link-color: var(--primary);
+  --link-hover-color: var(--accent);
+  --link-background-color: var(--accent-light);
+  --link-underline-shadow: 0 1px 0 var(--link-color);
+  --link-hover-underline-color: var(--accent);
+  --link-hover-underline-shadow: 0 2px 0 var(--accent);
+}
+
+.dark {
+  --link-hover-color: var(--accent-dark);
+  --link-background-color: rgba(231, 76, 60, 0.1);
+  --link-hover-underline-color: var(--accent-dark);
+  --link-hover-underline-shadow: 0 2px 0 var(--accent-dark);
+}
+
+/* Site logo hover accent */
+.logo a:hover,
+.logo a:active {
+  color: var(--accent) !important;
+}
+
+.dark .logo a:hover,
+.dark .logo a:active {
+  color: var(--accent-dark) !important;
+}
+
+/* Page description bar - red accent */
+.post-description {
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+}
+
+.dark .post-description {
+  border-left-color: var(--accent-dark);
+}
+
+/* Navigation active item accent */
+.nav-item.active a {
+  color: var(--accent) !important;
+}
+
+.dark .nav-item.active a {
+  color: var(--accent-dark) !important;
+}
+
+/* Headings in post content */
+.post-content h2,
+.post-content h3 {
+  color: var(--primary);
+}
+
+/* About page headings with red accent */
+.about-content h3 {
+  color: var(--accent);
+}
+
+.dark .about-content h3 {
+  color: var(--accent-dark);
+}
+
+/* CV download button uses accent */
+.cv-download {
+  background: var(--accent);
+  color: #fff;
+}
+
+.cv-download:hover {
+  background: var(--accent-hover);
+  opacity: 1;
+}
+
+.dark .cv-download {
+  background: var(--accent-dark);
+  color: #111;
+}
+
+.dark .cv-download:hover {
+  background: var(--accent-dark-hover);
+}
+
+/* Project card link hover */
+.project-content h2 a:hover {
+  color: var(--accent);
+}
+
+.dark .project-content h2 a:hover {
+  color: var(--accent-dark);
+}
+
+/* Tech tags accent border */
+.tech-tag {
+  border: 1px solid var(--border);
+}
+
+/* Social icons hover */
+.social-icons a:hover svg {
+  fill: var(--accent);
+}
+
+.dark .social-icons a:hover svg {
+  fill: var(--accent-dark);
+}
+
+/* Home info title accent underline */
+.home-info .entry-header h1 {
+  border-bottom: 3px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.dark .home-info .entry-header h1 {
+  border-bottom-color: var(--accent-dark);
+}
+
+/* Post entry hover accent */
+.post-entry:hover {
+  border-color: var(--accent);
+}
+
+.dark .post-entry:hover {
+  border-color: var(--accent-dark);
+}
+
+/* First entry on home page */
+.first-entry.home-info {
+  border-bottom: 1px solid var(--border);
+}
+
+/* Homepage sections */
+.home-section {
+  margin: 40px 0;
+}
+
+.home-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.dark .home-section-header {
+  border-bottom-color: var(--accent-dark);
+}
+
+.home-section-header h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.home-section-header a {
+  font-size: 14px;
+  color: var(--accent);
+}
+
+.dark .home-section-header a {
+  color: var(--accent-dark);
+}
+
+/* Featured writing grid */
+.featured-writing {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.featured-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: border-color 0.2s, transform 0.2s;
+  position: relative;
+}
+
+.featured-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.dark .featured-card:hover {
+  border-color: var(--accent-dark);
+}
+
+.featured-card .card-section {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.dark .featured-card .card-section {
+  color: var(--accent-dark);
+}
+
+.featured-card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.featured-card h3 a {
+  color: var(--primary);
+}
+
+.featured-card h3 a:hover {
+  color: var(--accent);
+}
+
+.dark .featured-card h3 a:hover {
+  color: var(--accent-dark);
+}
+
+.featured-card .card-desc {
+  font-size: 14px;
+  color: var(--secondary);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.featured-card .card-meta {
+  font-size: 12px;
+  color: var(--secondary);
+  margin-top: 12px;
+}
+
+/* Gallery preview on homepage */
+.gallery-preview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.gallery-preview-item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.gallery-preview-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery-preview-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-empty {
+  color: var(--secondary);
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+@media screen and (max-width: 768px) {
+  .featured-writing {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-preview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-preview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Scrollbar accent */
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--accent-dark);
+}

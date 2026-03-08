@@ -35,7 +35,7 @@ params:
   DateFormat: January 2, 2006
   defaultTheme: white
   ShowReadingTime: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   disableScrollToTop: false
@@ -44,7 +44,7 @@ params:
   DisableLanguageSwitch: true
 
   homeInfoParams:
-    Title: "🥝 Kiwi, Kritarath Thipsoonthonsak"
+    Title: "Welcome to Kiwi's Website"
     Content: |
       Howdy!👋 I'm an **Industrial Engineering** student at the Hong Kong Polytechnic University, with  dreams of getting into a management role at a tech company. I'll be sharing my life update, cool things I learned—so stay tuned!
 
@@ -67,6 +67,10 @@ params:
 
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 0
     - identifier: blog
       name: Blog
       url: /blog/

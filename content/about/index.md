@@ -5,6 +5,12 @@ description: "Kritarath 'Kiwi' Thipsoonthonsak"
 hideMeta: true
 ---
 
+Hey, I'm **Kiwi** — an Industrial & Systems Engineering student at The Hong Kong Polytechnic University with a deep curiosity for technology, philosophy, and creative work. I'm driven by the idea that engineering isn't just about systems and processes — it's about designing better ways to live and think.
+
+When I'm not studying optimization models or tinkering with robots, you'll find me hosting my Thai podcast **[Soundtaste](https://www.youtube.com/@soundtasteder)**, reading philosophy, editing videos, or photographing the streets of Hong Kong.
+
+I'm looking to grow into a management role at a tech company where I can blend technical depth with strategic thinking.
+
 ## Experience
 
 ### Robotics Intern — Mangdang Technologies Co., Limited
@@ -56,12 +62,21 @@ wGPA: 3.56/4.3
 
 ## Skills
 
-**Productivity:** MS Office, Google Suite, Notion
-**Coding:** Python, MS Azure, Google Cloud SDK, MongoDB, Git
-**CAD:** SolidWorks, Fusion 360
-**Creative:** Adobe CC (Photoshop, Illustrator, Lightroom, Premiere Pro), Blender, DaVinci Resolve, Final Cut Pro
-**Languages:** Thai (Native), English (Proficient)
+| Area | Tools & Technologies |
+|------|---------------------|
+| **Productivity** | MS Office, Google Suite, Notion |
+| **Coding** | Python, MS Azure, Google Cloud SDK, MongoDB, Git |
+| **CAD** | SolidWorks, Fusion 360 |
+| **Creative** | Adobe CC (Photoshop, Illustrator, Lightroom, Premiere Pro), Blender, DaVinci Resolve, Final Cut Pro |
+| **Languages** | Thai (Native), English (Proficient) |
 
 ## Certifications
 
 - Certified SOLIDWORKS Associate (CSWA) — Tangix Design & Development AB, 2025
+
+## What I'm Into Right Now
+
+- Building personal projects at the intersection of AI and hardware
+- Exploring philosophy of technology and ethics of AI
+- Growing the Thai student community in Hong Kong
+- Learning Hugo and web development (this site is the proof!)
