@@ -44,9 +44,9 @@ params:
   DisableLanguageSwitch: true
 
   homeInfoParams:
-    Title: "Welcome to Kiwi's Website"
+    Title: "Welcome"
     Content: |
-      Howdy!👋 I'm an **Industrial Engineering** student at the Hong Kong Polytechnic University, with  dreams of getting into a management role at a tech company. I'll be sharing my life update, cool things I learned—so stay tuned!
+      Howdy!👋 I'm Kiwi, an **Industrial Engineering** student at the Hong Kong Polytechnic University, with  dreams of getting into a management role at a tech company. I'll be sharing my life update, cool things I learned—so stay tuned!
 
       - **Interest:**  computer science, new tech, AI, philosophy, self-improvement, productivity, and life update!
       - **Fun Fact:** I also host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**. 🎙️
