@@ -1,4 +1,14 @@
 {{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description about-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
 <article class="post-single about-page">
   <div class="about-hero">
     {{- $img := .Resources.GetMatch "profile*" }}
@@ -6,8 +16,6 @@
     <img class="about-photo" src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
     {{- end }}
     <div class="about-intro">
-      <h1>{{ .Title }}</h1>
-      <p class="about-tagline">Industrial & Systems Engineering @ PolyU, Hong Kong</p>
       <div class="about-actions">
         <a href="/cv/2026_Kritarath_Thipsoonthonsal_CV.pdf" class="button cv-download" download>
           Download CV (PDF)

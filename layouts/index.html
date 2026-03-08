@@ -1,0 +1,132 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }}
+
+{{/* Home info section */}}
+{{- if site.Params.homeInfoParams }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{/* Featured Writing Section */}}
+{{- $allWriting := where site.RegularPages "Section" "in" (slice "blog" "essays") }}
+{{- $allWriting = where $allWriting "Params.hidden" "!=" true }}
+{{- $allWriting = where $allWriting "Draft" "!=" true }}
+{{- $featured := first 3 $allWriting.ByDate.Reverse }}
+{{- if $featured }}
+<div class="home-section">
+  <div class="home-section-header">
+    <h2>Featured Writing</h2>
+    <a href="/blog/">View all &rarr;</a>
+  </div>
+  <div class="featured-writing">
+    {{- range $featured }}
+    <div class="featured-card">
+      <span class="card-section">{{ .Section | title }}</span>
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{- if .Description }}
+      <p class="card-desc">{{ .Description | plainify | htmlUnescape }}</p>
+      {{- else }}
+      <p class="card-desc">{{ .Summary | plainify | htmlUnescape | truncate 120 }}</p>
+      {{- end }}
+      <div class="card-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</div>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+
+{{/* Gallery Preview Section */}}
+{{- $gallery := .Site.GetPage "/gallery" }}
+{{- if and $gallery $gallery.Params.photos }}
+{{- $photos := $gallery.Params.photos }}
+{{- if gt (len $photos) 0 }}
+<div class="home-section">
+  <div class="home-section-header">
+    <h2>Gallery</h2>
+    <a href="/gallery/">View all &rarr;</a>
+  </div>
+  <div class="gallery-preview">
+    {{- range first 4 $photos }}
+    <a class="gallery-preview-item" href="/gallery/">
+      <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}">
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{- else }}
+<div class="home-section">
+  <div class="home-section-header">
+    <h2>Gallery</h2>
+    <a href="/gallery/">Browse &rarr;</a>
+  </div>
+  <p class="gallery-empty">Photos coming soon. Stay tuned!</p>
+</div>
+{{- end }}
+
+{{/* Recent posts feed (existing behavior) */}}
+{{- $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hidden" "!=" true }}
+
+{{ $paginator := "" }}
+{{ if (.Param "paginate") }}
+  {{- $paginator = .Paginate $pages (.Param "paginate") }}
+{{ else }}
+  {{- $paginator = .Paginate $pages }}
+{{ end }}
+
+{{- if gt (len $paginator.Pages) 0 }}
+<div class="home-section">
+  <div class="home-section-header">
+    <h2>All Posts</h2>
+  </div>
+</div>
+{{- end }}
+
+{{- range $index, $page := $paginator.Pages }}
+{{- $class := "post-entry" }}
+<article class="{{ $class }}">
+  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2>
+      {{- .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[Draft]</span></sup>{{- end }}
+    </h2>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <section class="entry-content">
+    {{ if .Description }}
+      <p>{{ .Description | plainify | htmlUnescape }}</p>
+    {{ else }}
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    {{ end }}
+  </section>
+  {{- end }}
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{- /* end main */ -}}

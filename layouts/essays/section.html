@@ -1,0 +1,58 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+  {{- partial "inline_links.html" . -}}
+</header>
+
+{{- $pages := .Pages }}
+{{- $pages = where $pages "Params.hidden" "!=" true }}
+
+{{ $paginator := "" }}
+{{ if (.Param "paginate") }}
+  {{- $paginator = .Paginate $pages (.Param "paginate") }}
+{{ else }}
+  {{- $paginator = .Paginate $pages }}
+{{ end }}
+
+{{- range $index, $page := $paginator.Pages }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>
+      <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
+        {{- .Title }}
+        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[Draft]</span></sup>{{- end }}
+      </a>
+    </h2>
+  </header>
+  <div class="post-meta">
+    {{- partial "post_meta.html" . -}}
+  </div>
+  {{- if .Description }}
+  <section class="entry-content">
+    <p>{{ .Description | plainify | htmlUnescape }}</p>
+  </section>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}
