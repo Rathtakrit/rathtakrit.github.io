@@ -66,65 +66,64 @@
 </div>
 {{- end }}
 
-{{/* Recent posts feed (existing behavior) */}}
-{{- $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hidden" "!=" true }}
+{{/* Project preview cards */}}
+{{- $projects := where site.RegularPages "Section" "projects" }}
+{{- $projects = where $projects "Params.hidden" "!=" true }}
+{{- $projects = where $projects "Draft" "!=" true }}
+{{- $projectPreview := first 3 $projects.ByWeight }}
 
-{{ $paginator := "" }}
-{{ if (.Param "paginate") }}
-  {{- $paginator = .Paginate $pages (.Param "paginate") }}
-{{ else }}
-  {{- $paginator = .Paginate $pages }}
-{{ end }}
-
-{{- if gt (len $paginator.Pages) 0 }}
+{{- if gt (len $projectPreview) 0 }}
 <div class="home-section">
   <div class="home-section-header">
-    <h2>All Posts</h2>
+    <h2>Project Preview</h2>
+    <a href="/projects/">View all &rarr;</a>
+  </div>
+  <div class="projects-grid">
+    {{- range $projectPreview }}
+    <article class="project-card">
+      {{- $cover := (.Resources.ByType "image").GetMatch "*cover*" }}
+      {{- if .Params.youtube_preview }}
+      <div class="project-video">
+        <iframe
+          loading="lazy"
+          src="https://www.youtube.com/embed/{{ .Params.youtube_preview }}{{ with .Params.youtube_start }}?start={{ . }}{{ end }}"
+          title="{{ .Title }} preview"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      {{- else if $cover }}
+      <div class="project-cover">
+        <a href="{{ .Permalink }}">
+          <img loading="lazy" src="{{ $cover.RelPermalink }}" alt="{{ .Title }}">
+        </a>
+      </div>
+      {{- end }}
+      <div class="project-content">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{- with .Description }}
+        <p class="project-description">{{ . }}</p>
+        {{- end }}
+        {{- with .Params.tech }}
+        <div class="project-tech">
+          {{- range . }}
+          <span class="tech-tag">{{ . }}</span>
+          {{- end }}
+        </div>
+        {{- end }}
+        {{- with .Params.links }}
+        <div class="project-links">
+          {{- with .github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+          {{- with .demo }}<a href="{{ . }}" target="_blank" rel="noopener">Demo</a>{{ end }}
+          {{- with .paper }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+        </div>
+        {{- end }}
+      </div>
+    </article>
+    {{- end }}
   </div>
 </div>
-{{- end }}
-
-{{- range $index, $page := $paginator.Pages }}
-{{- $class := "post-entry" }}
-<article class="{{ $class }}">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-  <header class="entry-header">
-    <h2>
-      {{- .Title }}
-      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[Draft]</span></sup>{{- end }}
-    </h2>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <section class="entry-content">
-    {{ if .Description }}
-      <p>{{ .Description | plainify | htmlUnescape }}</p>
-    {{ else }}
-      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-    {{ end }}
-  </section>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
-{{- end }}
-
-{{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-  <nav class="pagination">
-    {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
-    {{- end }}
-    {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
-    {{- end }}
-  </nav>
-</footer>
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}

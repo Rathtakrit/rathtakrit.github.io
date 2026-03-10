@@ -10,7 +10,7 @@
 <meta name="description" content="created by Kritarath">
 <meta name="author" content="Kritarath Thipsoonthonsak">
 <link rel="canonical" href="http://localhost:1313/tags/values/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.cd0c10bc3cbe679e2e41b40a4edfe5a6f5e2a27e696a2b7f0aa7e1b9874ad556.css" integrity="sha256-zQwQvDy&#43;Z54uQbQKTt/lpvXion5pait/CqfhuYdK1VY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.ef728644b7d2f210f3e61866b144fa0dd56a797ffe9b0f9bdf6919a596991c89.css" integrity="sha256-73KGRLfS8hDz5hhmsUT6DdVqeX/&#43;mw&#43;b32kZpZaZHIk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/values/index.xml">
@@ -161,18 +161,33 @@ function toggleThemeListener() {
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/categories/" title="Categories"
-                >Categories
+                <a href="http://localhost:1313/" title="Home"
+                >Home
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags" class="active"
-                >Tags
+                <a href="http://localhost:1313/blog/" title="Blog"
+                >Blog
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/essays/" title="Essays"
+                >Essays
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects"
+                >Projects
                 </a>
             </li>
             <li>
                 <a href="http://localhost:1313/gallery/" title="Gallery"
                 >Gallery
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About"
+                >About
                 </a>
             </li>
         </ul>
@@ -210,12 +225,12 @@ function toggleThemeListener() {
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
   <span>3 min</span></span>
 </footer>
-  <a class="entry-link" aria-label="post link to Notes, Values Markmanson" href="http://localhost:1313/posts/notes-values-markmanson/"></a>
+  <a class="entry-link" aria-label="post link to Notes, Values Markmanson" href="http://localhost:1313/blog/notes-values-markmanson/"></a>
 </article>
     </main>
     
 <footer class="footer">
-  <span>&copy; 2025 <a href="http://localhost:1313/">Rathtakrit</a></span><span style="display: inline-block; margin-left: 1em;">
+  <span>&copy; 2026 <a href="http://localhost:1313/">Rathtakrit</a></span><span style="display: inline-block; margin-left: 1em;">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
   </span>
   <span style="display: inline-block; margin-left: 1em;">
@@ -228,7 +243,31 @@ function toggleThemeListener() {
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
     <path d="M12 6H0l6-6z" />
   </svg>
-</a>
+</a><script>
+
+(function() {
+  if (typeof mediumZoom !== 'undefined' && document.querySelector('.gallery-masonry')) {
+    mediumZoom('.gallery-item img', { background: 'rgba(0,0,0,0.9)' });
+  }
+})();
+
+
+(function() {
+  if (!document.querySelector('.about-page')) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.about-content h2, .about-content h3').forEach(function(el) {
+    el.classList.add('fade-in');
+    observer.observe(el);
+  });
+})();
+</script>
+
 
 <script>
   (function() {

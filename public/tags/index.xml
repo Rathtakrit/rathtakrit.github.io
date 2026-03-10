@@ -6,12 +6,84 @@
     <description>Recent content in Tags on Rathtakrit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 12:57:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>Kritarath Thipsoonthonsak</managingEditor>
+    <lastBuildDate>Tue, 10 Mar 2026 10:51:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Health</title>
+      <link>http://localhost:1313/tags/health/</link>
+      <pubDate>Tue, 10 Mar 2026 10:51:08 +0800</pubDate>
+      <guid>http://localhost:1313/tags/health/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Tue, 10 Mar 2026 10:51:08 +0800</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Feminism</title>
+      <link>http://localhost:1313/tags/feminism/</link>
+      <pubDate>Tue, 10 Mar 2026 10:35:05 +0800</pubDate>
+      <guid>http://localhost:1313/tags/feminism/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>http://localhost:1313/tags/movies/</link>
+      <pubDate>Tue, 10 Mar 2026 10:35:05 +0800</pubDate>
+      <guid>http://localhost:1313/tags/movies/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Art History</title>
+      <link>http://localhost:1313/tags/art-history/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/art-history/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Chinese History</title>
+      <link>http://localhost:1313/tags/chinese-history/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/chinese-history/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Legalism</title>
+      <link>http://localhost:1313/tags/legalism/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/legalism/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>http://localhost:1313/tags/philosophy/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Notes</title>
       <link>http://localhost:1313/tags/notes/</link>
       <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -21,7 +93,6 @@
       <title>Self-Help</title>
       <link>http://localhost:1313/tags/self-help/</link>
       <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/self-help/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -31,7 +102,6 @@
       <title>Values</title>
       <link>http://localhost:1313/tags/values/</link>
       <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/values/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -41,7 +111,6 @@
       <title>Cs-Journey</title>
       <link>http://localhost:1313/tags/cs-journey/</link>
       <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/cs-journey/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -51,7 +120,6 @@
       <title>Life-Related</title>
       <link>http://localhost:1313/tags/life-related/</link>
       <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/life-related/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -61,7 +129,6 @@
       <title>AGI</title>
       <link>http://localhost:1313/tags/agi/</link>
       <pubDate>Mon, 28 Apr 2025 14:55:02 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/agi/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -71,18 +138,7 @@
       <title>Ethics</title>
       <link>http://localhost:1313/tags/ethics/</link>
       <pubDate>Mon, 28 Apr 2025 14:55:02 +0800</pubDate>
-      
       <guid>http://localhost:1313/tags/ethics/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Philosophy</title>
-      <link>http://localhost:1313/tags/philosophy/</link>
-      <pubDate>Mon, 28 Apr 2025 14:55:02 +0800</pubDate>
-      
-      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

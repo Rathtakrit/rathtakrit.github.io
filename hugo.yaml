@@ -1,5 +1,5 @@
 title: Rathtakrit
-baseURL: https://rathtakrit.me/
+baseURL: https://rathtakrit.github.io/
 languageCode: en-us
 theme: PaperModX
 
@@ -22,7 +22,7 @@ params:
   EnableImageZoom: true
   title: Rathtakrit
   description: created by Kritarath
-  TocSide: 'right'
+  TocSide: 'left'
   mainSections:
     - blog
     - essays
@@ -46,12 +46,13 @@ params:
   homeInfoParams:
     Title: "Welcome"
     Content: |
-      Howdy!👋 I'm Kiwi, an **Industrial Engineering** student at the Hong Kong Polytechnic University, with  dreams of getting into a management role at a tech company. I'll be sharing my life update, cool things I learned—so stay tuned!
+      Howdy!👋 I'm Kiwi, an **Industrial Engineering** student at the Hong Kong Polytechnic University.
+      - **Interest:**  Technology, Artificial Intelligence, philosophy, self-improvement.
+      - **Opnion Sharing:** I  host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**, you can come disagree with me there(but you have to know thai tho). 🎙️
 
-      - **Interest:**  computer science, new tech, AI, philosophy, self-improvement, productivity, and life update!
-      - **Fun Fact:** I also host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**. 🎙️
-
+      My Favorite quote is:
       *To living determingly*
+      *The problem being as good as being able to solve it*
 
   socialIcons:
     - name: cv
@@ -63,31 +64,31 @@ params:
     - name: linkedin-simple
       url: https://www.linkedin.com/in/kritarath-thipsoonthonsak-a62499256/
     - name: mdi-email
-      url: mailto:kritarath.thipsoonthonsak@connect.polyu.hk
+      url: mailto:rathtakrit@gmail.com
 
 menu:
   main:
     - identifier: home
       name: Home
       url: /
-      weight: 0
+      weight: 1
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 1
+      weight: 2
     - identifier: essays
       name: Essays
       url: /essays/
-      weight: 2
+      weight: 3
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 3
+      weight: 4
     - identifier: gallery
       name: Gallery
       url: /gallery/
-      weight: 4
+      weight: 5
     - identifier: about
       name: About
       url: /about/
-      weight: 5
+      weight: 6
