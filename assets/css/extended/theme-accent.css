@@ -220,6 +220,22 @@
   transform: translateY(-2px);
 }
 
+/* Keep essays section link hover consistent with site accent */
+body.type-essays {
+  --link-hover-color: var(--accent);
+  --link-hover-underline-color: var(--accent);
+  --link-hover-underline-shadow: 0 2px 0 var(--accent);
+  --link-background-color: var(--accent-light);
+}
+
+.dark body.type-essays,
+body.dark.type-essays {
+  --link-hover-color: var(--accent-dark);
+  --link-hover-underline-color: var(--accent-dark);
+  --link-hover-underline-shadow: 0 2px 0 var(--accent-dark);
+  --link-background-color: rgba(231, 76, 60, 0.1);
+}
+
 .dark .featured-card:hover {
   border-color: var(--accent-dark);
 }
