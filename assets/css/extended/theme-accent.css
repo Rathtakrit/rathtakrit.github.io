@@ -240,62 +240,6 @@ body.dark.type-essays {
   border-color: var(--accent-dark);
 }
 
-/* Keep TOC on the side for normal desktop widths */
-@media screen and (min-width: 1100px) {
-  .toc.side {
-    position: fixed;
-    top: 118px;
-    z-index: 1;
-    max-height: calc(100% - 150px);
-    overflow: auto;
-    font-size: 0.75em;
-  }
-
-  .toc.side::-webkit-scrollbar-thumb {
-    border: 5px solid var(--code-bg);
-  }
-
-  .toc.side.left {
-    left: 15px;
-    width: 220px;
-  }
-
-  .toc.side.right {
-    right: 15px;
-    width: 235px;
-  }
-}
-
-/* TOC readability and visual hierarchy */
-.toc {
-  font-family: inherit;
-}
-
-.toc details > summary {
-  margin-inline-start: 0;
-  padding: 10px 14px;
-  border-bottom: 1px solid var(--border);
-  background: var(--theme);
-}
-
-.toc .details {
-  display: block;
-  font-size: 0.92rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary);
-}
-
-.toc .inner {
-  padding: 8px 12px 6px 18px;
-}
-
-.toc li a {
-  font-size: 0.92rem;
-  line-height: 1.35;
-}
-
 /* Make post images slightly smaller and cleaner */
 .post-content img {
   display: block;
