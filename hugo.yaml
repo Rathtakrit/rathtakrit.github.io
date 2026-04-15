@@ -22,7 +22,7 @@ params:
   EnableImageZoom: true
   title: Rathtakrit
   description: created by Kritarath
-  TocSide: 'left'
+  TocSide: 'right'
   mainSections:
     - blog
     - essays
