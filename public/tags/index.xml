@@ -7,39 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>Kritarath Thipsoonthonsak</managingEditor>
-    <lastBuildDate>Tue, 10 Mar 2026 10:51:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Health</title>
-      <link>http://localhost:1313/tags/health/</link>
-      <pubDate>Tue, 10 Mar 2026 10:51:08 +0800</pubDate>
-      <guid>http://localhost:1313/tags/health/</guid>
+      <title>Ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>Life</title>
-      <link>http://localhost:1313/tags/life/</link>
-      <pubDate>Tue, 10 Mar 2026 10:51:08 +0800</pubDate>
-      <guid>http://localhost:1313/tags/life/</guid>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/learning/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>Feminism</title>
-      <link>http://localhost:1313/tags/feminism/</link>
-      <pubDate>Tue, 10 Mar 2026 10:35:05 +0800</pubDate>
-      <guid>http://localhost:1313/tags/feminism/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Movies</title>
-      <link>http://localhost:1313/tags/movies/</link>
-      <pubDate>Tue, 10 Mar 2026 10:35:05 +0800</pubDate>
-      <guid>http://localhost:1313/tags/movies/</guid>
+      <title>Lecture</title>
+      <link>http://localhost:1313/tags/lecture/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/lecture/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -103,24 +94,6 @@
       <link>http://localhost:1313/tags/values/</link>
       <pubDate>Mon, 05 May 2025 12:57:59 +0800</pubDate>
       <guid>http://localhost:1313/tags/values/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Cs-Journey</title>
-      <link>http://localhost:1313/tags/cs-journey/</link>
-      <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
-      <guid>http://localhost:1313/tags/cs-journey/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Life-Related</title>
-      <link>http://localhost:1313/tags/life-related/</link>
-      <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
-      <guid>http://localhost:1313/tags/life-related/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

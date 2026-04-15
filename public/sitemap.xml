@@ -6,32 +6,26 @@
   </url><url>
     <loc>http://localhost:1313/projects/login-visualizer/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-03-10T10:51:08+08:00</lastmod>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/health/</loc>
-    <lastmod>2026-03-10T10:51:08+08:00</lastmod>
+    <loc>http://localhost:1313/tags/learning/</loc>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/life/</loc>
-    <lastmod>2026-03-10T10:51:08+08:00</lastmod>
+    <loc>http://localhost:1313/blog/learning-to-learn/</loc>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lecture/</loc>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-10T10:51:08+08:00</lastmod>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-03-10T10:51:08+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/warrior-diet/</loc>
-    <lastmod>2026-03-10T10:51:08+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/american-psycho/</loc>
-    <lastmod>2026-03-10T10:35:05+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/feminism/</loc>
-    <lastmod>2026-03-10T10:35:05+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/movies/</loc>
-    <lastmod>2026-03-10T10:35:05+08:00</lastmod>
+    <lastmod>2026-04-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/art-history/</loc>
     <lastmod>2025-11-02T00:00:00+00:00</lastmod>
@@ -51,9 +45,6 @@
     <loc>http://localhost:1313/essays/when-art-became-law/</loc>
     <lastmod>2025-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/understanding-robot-kinematics-with-minipupper/</loc>
-    <lastmod>2025-06-19T09:57:44+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-05-05T12:57:59+08:00</lastmod>
   </url><url>
@@ -72,15 +63,6 @@
     <loc>http://localhost:1313/tags/values/</loc>
     <lastmod>2025-05-05T12:57:59+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cs-journey/</loc>
-    <lastmod>2025-04-29T13:35:38+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/life-related/</loc>
-    <lastmod>2025-04-29T13:35:38+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/to-all-the-jacks-and-all-the-trade-you-persuade/</loc>
-    <lastmod>2025-04-29T13:35:38+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/agi/</loc>
     <lastmod>2025-04-28T14:55:02+08:00</lastmod>
   </url><url>
@@ -89,9 +71,6 @@
   </url><url>
     <loc>http://localhost:1313/essays/if-agi-is-created-what-moral-obligations-are-we-bound-to-them/</loc>
     <lastmod>2025-04-28T14:55:02+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/mark-down-syntax-guide/</loc>
-    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

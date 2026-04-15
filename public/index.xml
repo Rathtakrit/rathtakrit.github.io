@@ -7,31 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>Kritarath Thipsoonthonsak</managingEditor>
-    <lastBuildDate>Tue, 10 Mar 2026 10:51:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Warrior Diet</title>
-      <link>http://localhost:1313/blog/warrior-diet/</link>
-      <pubDate>Tue, 10 Mar 2026 10:51:08 +0800</pubDate>
-      <guid>http://localhost:1313/blog/warrior-diet/</guid>
-      <description>My 20:4 Fasting Experience</description>
-      <content:encoded><![CDATA[<h1 id="fat-fck">Fat F*ck</h1>
-<p>The inspiration of starting this project stems organizing photos. Only 1 years prior when I first moved in to Hong Kong, the food is expensive, everythings happens so fast. and I becomme a little thinner, thinner that I ever was&hellip;.</p>
-<p>I&rsquo;m always and over-weight kid, not once in my life I remember to have no belly sticking out of my body, but I hidden it quite well for some reason. But now, after seeing that photos of me being thin (and looking fucking awesome) I decided something needed to changes</p>
-<h1 id="what-is-this-diet-and-what-are-the-benefits-of-fasting">What is this diet, and what are the benefits of fasting</h1>
-<h1 id="the-first-day">The first day</h1>
-<p>I started the diet quite uncompulsively, and the first day is quite brutal, my body keeps on being high-alert, stressing out of the comfort, I always love easting unhealth snacks and</p>
-<h2 id="afterwards">Afterwards</h2>
-<p>the 2-3 become better, I felt a lot of focus on my afternoon time,</p>
+      <title>Learning to Learn</title>
+      <link>http://localhost:1313/blog/learning-to-learn/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/blog/learning-to-learn/</guid>
+      <description>What I learned from Prof. Barbara Oakley&amp;#39;s special lecture on building minds in the age of AI</description>
+      <content:encoded><![CDATA[<p>Yesterday (13th April 2026) I got a chance to listen to the one and only, Prof. Barbara Oakley, well known from the famous &ldquo;Learning How to Learn&rdquo; course. To be completely 100% honest, I never studied the course, but I&rsquo;ve heard overwhelmingly positive responses since I was a kid. So that&rsquo;s why I joined the class.</p>
+<p><strong>Learning how to actually learn</strong> is undoubtedly the most important skill to have in 2026, because knowledge is easier than ever to capture. As well as the powerful large language models that can quickly aggregate the subject of your interest and do awesome things with it (guiding, explaining, visualizing, metaphoring, you name it!)</p>
+<p>Without further ado, let&rsquo;s see what I learned from the special lecture</p>
+<h2 id="building-minds-in-the-age-of-ai-why-smarter-technology-is-making-us-dumber">Building minds in the age of AI, Why smarter technology is making us dumber</h2>
+<h2 id="the-2-system">The 2 system</h2>
+<p>To first understand how we can build great minds, we have to quickly understand how our mind (brain) works. In the book by Daniel Kahneman, the brain is comprised of two systems</p>
+<ol>
+<li>The Quick, Intuition, and Non-Conscious brain</li>
+<li>The Slow, Thinking, and Conscious brain</li>
+</ol>
+<p>The systems work and support each other. We can&rsquo;t use the slow brain to do everything since it&rsquo;s, well, slow, you cannot play any sport by thinking! You need the quick response. The same goes for the fast brain, you cannot automatically solve complex problems based on your intuition, you need the thinking brain!</p>
+<p>That is a really quick summary of how the brain works, but if you want a more in-depth explanation from someone much smarter than me, I highly suggest the video by Veritasium that explains this concept so well <a href="https://www.youtube.com/watch?v=UBVV8pch1dM&amp;t=233s">https://www.youtube.com/watch?v=UBVV8pch1dM&amp;t=233s</a></p>
+<h2 id="chatgpt--human-brain">ChatGPT = human Brain?</h2>
+<p>If you have been following AI and LLMs, you may have heard of the highly praised paper &ldquo;Attention is All You Need&rdquo; — it&rsquo;s the paper that introduced us to the Transformer architecture, which is the foundation for today&rsquo;s pretentiously sophisticated chatbots, and quite frankly, it&rsquo;s modeled similarly to how our brain operates.</p>
+<p>quick checklist on what we got the same</p>
+<ul>
+<li>encoding and decoding part</li>
+<li>attention and weighting</li>
+<li>neural network and our neurons</li>
+<li>nobody really understands why it&rsquo;s smart</li>
+</ul>
+<p>It&rsquo;s wonderful when you pay attention to how technology mimics nature, from natural stripes in camouflage to the brain itself</p>
+<p><img loading="lazy" src="/blog/learning-to-learn/ai-vs-brain.jpeg" type="" alt="Information of AI compared to brain"  /></p>
+<p>Again, if you have messed around with Deep Learning in any form. The way this system becomes smart is basically data, a large amount of DATA. As the most cliché analogy goes, Deep Learning / Neural network is a blackbox, you put data in, it adjusts the parameters by itself, and gets better</p>
+<p>When we&rsquo;re downloading the data to train our model, we have 2 sets of data: Training and Testing. When DL models first learn on the training data, they operate well when tested on the training data, but if we try to use the test data, it underperforms tremendously. It was until the training reached a certain threshold when our model reached its capability and it can operate well on the testing data</p>
+<p>Similarly, our brain operates very similarly and we call that threshold of jumping &ldquo;Grokking&rdquo;</p>
+<p><img loading="lazy" src="/blog/learning-to-learn/grokking.png" type="" alt="Grokking threshold"  /></p>
+<h2 id="no-its-not">No it&rsquo;s not,</h2>
+<p>The truth is, the similarity only finishes in the quick system of the brain, by having a lot of data, training it, adjusting parameters until it fits.</p>
+<p>Similar to humans when we use the quick brain. When we&rsquo;re using our motor skills, let&rsquo;s say football, you basically cannot ronaldo on your first day. Most likely you can&rsquo;t even juggle, but after a series of practice and adjusting your body little by little, you will become better</p>
+<p>But our brain also has the slow system, and this is where everything is different. The slow system does not work better by adjusting everything, it works better by recalling the systems it already has remembered. I&rsquo;ll put it in an analogy Prof. Barbara explained in the lecture: when we&rsquo;re learning something new it&rsquo;s like constructing a chain in the brain, and when it&rsquo;s first constructed, it will have weak links and might dissolve later, but if you try to recall it, pulling the chain repeatedly, it will slowly become better and better</p>
+<p>Also as a bonus, when the Slow brain learns something for so long, it will pick up the simpler underlying pattern, which then can translate into the fast brain. These underlying patterns that DISTILL into the automatic system are why senior doctors&rsquo; intuition tends to be correct</p>
+<p><img loading="lazy" src="/blog/learning-to-learn/brain-chain.jpeg" type="" alt="Brain chain analogy"  /></p>
+<h2 id="model-fitting-our-brain">Model fitting our brain</h2>
+<p>So far we established that we have 2 brain systems, our brain is basically a deep learning model, and the deep learning model has a certain threshold for it to become really smart, and we call that GROKKED. As well as the brain operates better by recalling in the slow system, training it until it becomes grokked.</p>
+<p><img loading="lazy" src="/blog/learning-to-learn/teachers-matter.jpeg" type="" alt="Teachers Matter"  /></p>
+<p>Another thing Barbara mentioned is the importance of instructed learning. AI gets way better when it was instructed in their training dataset, and it&rsquo;s also the same for humans, as in this research showing that direct instruction is the best method of teaching</p>
+<p>So, as a good student, I would like to use this lecture I have learned and apply it to the testing data, and create my learning to learn 2026 with AI guide, with the core ideology of leveraging AI tools for learning. As you mentioned, AI shows the knowledge, but we&rsquo;re the ones who own it~</p>
+<ol>
+<li>Instruction: Before learning any topic, I try to research the best course to learn with, how I should structure my learning, and also let AI guide me through the study plan</li>
+<li>Training: As I mostly take all my notes on my laptop in a Zettelkasten system, I already have a system that can store all my knowledge. However the system is mostly stale since I take notes and leave them as is. Now I try to quiz myself with AI on all the notes I took weekly, as well as learning more new things here. So both creating new links and strengthening the old ones. Also trying to keep it at 85% Baseline</li>
+<li>Testing: to put it into practice, I try to write a blog on new topics I encounter weekly, so I put myself through a test and see if what I studied has been grokked or not</li>
+</ol>
+<h2 id="leaving-notes">Leaving notes</h2>
+<p>One last thing I wanted to point out, I have so many things I wanted to learn but I never tried to put in real effort in my learning. But your lecture has significantly changed my mind. I would love to know more about learning to learn, and start learning all the things that have been stuck in my head!</p>
+<p>Truly inspiring, I try my best to upload this blog, even though this one really sucks, and keep improving from now on.</p>
+<p>Thank you Barbara for being such a wonderful person. I truly learn a lot from you</p>
+<p>Best,
+Kiwi 14/4/2026</p>
 ]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>American Psycho</title>
-      <link>http://localhost:1313/blog/american-psycho/</link>
-      <pubDate>Tue, 10 Mar 2026 10:35:05 +0800</pubDate>
-      <guid>http://localhost:1313/blog/american-psycho/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
@@ -124,16 +156,6 @@
 </li>
 </ol>
 </div>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Understanding Robot Kinematics With Minipupper</title>
-      <link>http://localhost:1313/blog/understanding-robot-kinematics-with-minipupper/</link>
-      <pubDate>Thu, 19 Jun 2025 09:57:44 +0800</pubDate>
-      <guid>http://localhost:1313/blog/understanding-robot-kinematics-with-minipupper/</guid>
-      <description>Trying to understand kinematics, control and general robot coding with Mini Pupper from Mangdang</description>
-      <content:encoded><![CDATA[<h1></h1>
 ]]></content:encoded>
     </item>
     
@@ -275,53 +297,6 @@
     </item>
     
     <item>
-      <title>To all the Jacks, and all the trade you persuade</title>
-      <link>http://localhost:1313/blog/to-all-the-jacks-and-all-the-trade-you-persuade/</link>
-      <pubDate>Tue, 29 Apr 2025 13:35:38 +0800</pubDate>
-      <guid>http://localhost:1313/blog/to-all-the-jacks-and-all-the-trade-you-persuade/</guid>
-      <description>For those people who do a bunch of things, but not any in particular</description>
-      <content:encoded><![CDATA[<blockquote>
-<p>&ldquo;The only way to do great work is to love what you do.”</p>
-<p>— Steve Jobs</p>
-</blockquote>
-<h2 id="jacks-of-all-trades">Jacks of all Trades</h2>
-<p>&ldquo;Jack of all trades,&rdquo; a saying that would best describe myself. I&rsquo;m good with a lot of things, but nothing <em>great</em> in particular. I have a shit load of hobbies I like to do (photography, music, writing, reading, movies and more) but if someone were to ask what I do the best, I wouldn&rsquo;t be able to give an answer</p>
-<p>This does not only cover my hobbies thought, it covers everything. In academia, I couldn&rsquo;t pinpoint which subject I like the most (except biology, I hate biology), and no, I&rsquo;m not that super smart kid in class who good in every topics. Vise-versa, I&rsquo;m bad at every topic! equally bad in all of them!</p>
-<p>In High-school, the thing I do best is extra-curricular. With my wide range of skills, I believe that the best use of this skills is in <strong>Management position</strong> and I did just that, somehow, maybe cuz we&rsquo;re living in a simulation, I was a student president! And I really have fun conducting meetings, helping other people and commenting on peoples&rsquo; work.</p>
-<h2 id="master-of-none">Master of None</h2>
-<p>But life is funny, and in this era of excess. We need to be truly <strong>GREAT</strong> in something to standout. In my final year of high school, and the very same problematic choice every teenager have to face. the very question that will determine what you do for the rest of your life.</p>
-<blockquote>
-<p>What will you study?</p>
-</blockquote>
-<p>The answer varies from person to person, and some may have a clear answer for it. I have thought about this question for a really long time, and before my time in high school. My answer would always be &lsquo;&lsquo;computer engineer&rsquo;&rsquo; because I love technology. and I have a little background in programming. However, things changed. I know that I like management, I&rsquo;m quite okay with it also(not bragging),  I also  really like weird abstract concept: Psychology, Philosophy, and arts? which make me started to think.</p>
-<blockquote>
-<p>Is there more path I can pursue?</p>
-</blockquote>
-<h3 id="the-decision">The Decision</h3>
-<p>After multiple talks with my counselors. I finally decide, I would become an <em><strong>Industrial Engineer</strong></em>, An engineer whom study in multiple of fields. wide range of topics, can work in multiple industry. Since I have no specific subject I love, and I like management, this should be the correct path&hellip;&hellip;right?</p>
-<p>1 year in university have passed,
-and all I wanted to study is computing.</p>
-<p>While the first year mostly filled with introductory course, I found myself to be highly interest in computing-related subjects. I found myself doing work our side of my own class.</p>
-<p>Even as far as to apply for a transfer into department of computing.</p>
-<h3 id="is-there-a-place-for-jacks-in-today-society">Is there a place for Jacks in today society?</h3>
-<p>There are mainly 3 reasons I change my mind yet again.</p>
-<ol>
-<li>I like tech</li>
-<li>To survive and shine in today society, you have to be truly talented at <em>something</em></li>
-<li>A manager is good at everything, but he must be great at <em>something</em>
-I needed that <em>something</em>, a specific talent I could tell people I do. Not a 5 second pause thinking in my own mind &ldquo;Ahh, shit I don&rsquo;t know I do a lot of things.&rdquo; I believe IE is a great career, but I also believe that maybe, there is no place for us Jacks in this world&hellip;&hellip;&hellip;&hellip;&hellip;.</li>
-</ol>
-<p><strong>But I got rejected</strong></p>
-<h2 id="though-oftentimes">Though oftentimes</h2>
-<h2 id="better-than-master-of-one">Better than master of one</h2>
-<blockquote>
-<p><strong>Jack of all trades master of none, though oftentimes better than master of one</strong>
-—William Shakespear</p>
-</blockquote>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>If AGI is Created, What Moral Obligations Are We Bound to Them?</title>
       <link>http://localhost:1313/essays/if-agi-is-created-what-moral-obligations-are-we-bound-to-them/</link>
       <pubDate>Mon, 28 Apr 2025 14:55:02 +0800</pubDate>
@@ -427,102 +402,6 @@ As previously mentioned, the principle of substrate non-discrimination and the A
 </li>
 <li id="fn:14">
 <p>Obaid, O. I. (2023). From Machine Learning to Artificial General Intelligence: A Roadmap and Implications. Mesopotamian Journal of Big D&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Mark down syntax guide</title>
-      <link>http://localhost:1313/blog/mark-down-syntax-guide/</link>
-      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/mark-down-syntax-guide/</guid>
-      <description>this is the 1st post, what do you want more from it?</description>
-      <content:encoded><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
-<h2 id="headings">Headings</h2>
-<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
-<h1 id="h1">H1</h1>
-<h2 id="h2">H2</h2>
-<h3 id="h3">H3</h3>
-<h4 id="h4">H4</h4>
-<h5 id="h5">H5</h5>
-<h6 id="h6">H6</h6>
-<h2 id="paragraph">Paragraph</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
-<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
-<h2 id="blockquotes">Blockquotes</h2>
-<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
-<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
-<blockquote>
-<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
-</blockquote>
-<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
-<blockquote>
-<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
-<p>— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
-</blockquote>
-<h2 id="tables">Tables</h2>
-<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports them out-of-the-box.</p>
-<table>
-  <thead>
-      <tr>
-          <th>Name</th>
-          <th>Age</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Bob</td>
-          <td>27</td>
-      </tr>
-      <tr>
-          <td>Alice</td>
-          <td>23</td>
-      </tr>
-  </tbody>
-</table>
-<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
-<table>
-  <thead>
-      <tr>
-          <th>Italics</th>
-          <th>Bold</th>
-          <th>Code</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><em>italics</em></td>
-          <td><strong>bold</strong></td>
-          <td><code>code</code></td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="code-blocks">Code Blocks</h2>
-<h4 id="inline-code">Inline Code</h4>
-<p><code>This is Inline Code</code></p>
-<h4 id="only-pre">Only <code>pre</code></h4>
-<pre>
-This is pre text
-</pre>
-<h4 id="code-block-with-backticks">Code block with backticks</h4>
-<pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-    &lt;head&gt;
-        &lt;meta charset=&#34;utf-8&#34; /&gt;
-        &lt;title&gt;Example HTML5 Document&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;Test&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</code></pre><div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
