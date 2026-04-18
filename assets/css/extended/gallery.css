@@ -18,12 +18,6 @@
   width: 100%;
   height: auto;
   display: block;
-  cursor: zoom-in;
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover img {
-  transform: scale(1.02);
 }
 
 .gallery-caption {

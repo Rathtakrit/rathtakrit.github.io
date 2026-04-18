@@ -14,7 +14,7 @@ I'm looking to grow into a management role at a tech company where I can blend t
 ## Experience
 
 ### Robotics Intern — Mangdang Technologies Co., Limited
-**Hong Kong** | 2025 - Present
+**Hong Kong** | June 2025 - Present
 
 - **Hardware Design:** Designed 3D-printed enclosures for HeySanta, an AI-powered voice toy and Micropupper, a miniaturized Minipupper. Responsible for aesthetic design and hardware-component integration
 - **Web & Media:** Built the HeySanta Kickstarter landing page; led creative production including storyboard, video editing, photography, and advertising assets for the product launch campaign
@@ -28,22 +28,23 @@ I'm looking to grow into a management role at a tech company where I can blend t
 ## Education
 
 ### Bachelor of Engineering (Honours) in Industrial and System Engineering
-**The Hong Kong Polytechnic University (PolyU)** | 2024 - Present
+**The Hong Kong Polytechnic University (PolyU)** | Sept 2024 - Present
 wGPA: 3.56/4.3
 
 ## Leadership & Activities
 
 ### President — Association of Thai Students in Hong Kong SAR and Macau SAR
-2025 - Present
+August 2025 - Present
 
-- Restructured the organization: implemented project-based system; introduced Google Suite and Discord as productivity platforms
-- Programme Management: overseeing 5+ concurrent projects simultaneously
+- Restructured the organization: implemented project-based system; introduced Google Suite and Discord as productivity and communication platforms; standardized workflows and improved cross-team visibility
+- Programme Management: overseeing 5+ concurrent projects simultaneously — from large-scale events, inter-organizational partnerships, sponsorship, and financial operations to web development
 
 ### Student Ambassador — PolyU Global Engagement Office
-2025 - Present
+August 2025 - Present
 
-- Liaison between PolyU and Thai secondary schools, representing the university to external stakeholders
-- Travelled to Thailand for school tours, delivering speeches and presentations to high school students
+- Liaison between PolyU and Thai secondary schools — coordinating visit schedules, managing logistics, and representing the university to external stakeholders
+- Travelled to Thailand twice for 1-week school tours; delivered speeches and presentations to high school students to promote PolyU
+- Supported on-campus initiatives including welcoming academic counsellors and assisting incoming freshmen on arrival day at the airport
 
 ## Projects & Research
 
@@ -65,9 +66,9 @@ wGPA: 3.56/4.3
 | Area | Tools & Technologies |
 |------|---------------------|
 | **Productivity** | MS Office, Google Suite, Notion |
-| **Coding** | Python, MS Azure, Google Cloud SDK, MongoDB, Git |
+| **Coding** | Python (Pandas, NumPy), MS Azure, Google Cloud SDK, MongoDB, Git |
 | **CAD** | SolidWorks, Fusion 360 |
-| **Creative** | Adobe CC (Photoshop, Illustrator, Lightroom, Premiere Pro), Blender, DaVinci Resolve, Final Cut Pro |
+| **Creative** | Canva, Adobe CC (Photoshop, Illustrator, Lightroom, Premiere Pro), Blender, DaVinci Resolve, Apple Creator Studio (Final Cut Pro, Pixelmator) |
 | **Languages** | Thai (Native), English (Proficient) |
 
 ## Certifications

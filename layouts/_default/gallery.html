@@ -14,11 +14,11 @@
   <div class="gallery-item">
     <img
       loading="lazy"
+      decoding="async"
       src="{{ .src }}"
       alt="{{ .alt }}"
       {{ with .width }}width="{{ . }}"{{ end }}
       {{ with .height }}height="{{ . }}"{{ end }}
-      {{ if and .width .height }}style="aspect-ratio: {{ .width }}/{{ .height }};"{{ end }}
     />
     {{- with .alt }}
     <span class="gallery-caption">{{ . }}</span>

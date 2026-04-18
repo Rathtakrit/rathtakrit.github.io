@@ -18,8 +18,8 @@ layout: "gallery"
 photos:
   - src: "/gallery/1000019354.webp"
     alt: "crusing"
-    width: 2000
-    height: 1126
+    width: 1600
+    height: 901
   - src: "/gallery/1000019373.webp"
     alt: "Fishing"
     width: 2000
@@ -50,6 +50,6 @@ photos:
     height: 1336
   - src: "/gallery/KW_07654.webp"
     alt: "Pinmook"
-    width: 2000
-    height: 3556
+    width: 1600
+    height: 2845
 ---
