@@ -48,15 +48,15 @@ params:
     Content: |
       Howdy!👋 I'm Kiwi, an **Industrial Engineering** student at the Hong Kong Polytechnic University.
       - **Interest:**  Technology, Artificial Intelligence, philosophy, self-improvement.
-      - **Opnion Sharing:** I  host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**, you can come disagree with me there(but you have to know thai tho). 🎙️
+      - **Opinion Sharing:** I  host a Thai podcast called **[Soundtaste](https://www.youtube.com/@soundtasteder)**, you can come disagree with me there(but you have to know thai tho). 🎙️
 
       My Favorite quote is:
-      *To living determingly*
+      *To living determinedly*
       *The problem being as good as being able to solve it*
 
   socialIcons:
     - name: cv
-      url: "/cv/2026_Kritarath_Thipsoonthonsal_CV.pdf"
+      url: "/cv/2026_Kritarath_Thipsoonthonsak_CV.pdf"
     - name: github-simple
       url: https://github.com/Rathtakrit
     - name: youtube

@@ -5,6 +5,10 @@ draft: false
 tags: ["learning", "ai", "lecture"]
 showToc: true
 description: "What I learned from Prof. Barbara Oakley's special lecture on building minds in the age of AI"
+cover:
+  image: "brain-chain.jpeg"
+  alt: "Brain chain analogy illustration"
+  relative: true
 ---
 
 Yesterday (13th April 2026) I got a chance to listen to the one and only, Prof. Barbara Oakley, well known from the famous "Learning How to Learn" course. To be completely 100% honest, I never studied the course, but I've heard overwhelmingly positive responses since I was a kid. So that's why I joined the class.
@@ -37,7 +41,7 @@ quick checklist on what we got the same
 
 It's wonderful when you pay attention to how technology mimics nature, from natural stripes in camouflage to the brain itself
 
-![Information of AI compared to brain](ai-vs-brain.jpeg)
+{{< pic src="ai-vs-brain.jpeg" alt="Information of AI compared to brain" >}}
 
 Again, if you have messed around with Deep Learning in any form. The way this system becomes smart is basically data, a large amount of DATA. As the most cliché analogy goes, Deep Learning / Neural network is a blackbox, you put data in, it adjusts the parameters by itself, and gets better
 
@@ -45,7 +49,7 @@ When we're downloading the data to train our model, we have 2 sets of data: Trai
 
 Similarly, our brain operates very similarly and we call that threshold of jumping "Grokking"
 
-![Grokking threshold](grokking.png)
+{{< pic src="grokking.webp" alt="Grokking threshold" >}}
 
 ## No it's not,
 
@@ -57,13 +61,13 @@ But our brain also has the slow system, and this is where everything is differen
 
 Also as a bonus, when the Slow brain learns something for so long, it will pick up the simpler underlying pattern, which then can translate into the fast brain. These underlying patterns that DISTILL into the automatic system are why senior doctors' intuition tends to be correct
 
-![Brain chain analogy](brain-chain.jpeg)
+{{< pic src="brain-chain.jpeg" alt="Brain chain analogy" >}}
 
 ## Model fitting our brain
 
 So far we established that we have 2 brain systems, our brain is basically a deep learning model, and the deep learning model has a certain threshold for it to become really smart, and we call that GROKKED. As well as the brain operates better by recalling in the slow system, training it until it becomes grokked.
 
-![Teachers Matter](teachers-matter.jpeg)
+{{< pic src="teachers-matter.jpeg" alt="Teachers matter research slide" >}}
 
 Another thing Barbara mentioned is the importance of instructed learning. AI gets way better when it was instructed in their training dataset, and it's also the same for humans, as in this research showing that direct instruction is the best method of teaching
 

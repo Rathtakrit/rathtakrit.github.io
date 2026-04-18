@@ -1,0 +1,19 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $resource := .Page.Resources.GetMatch $src -}}
+{{- if $resource -}}
+  {{- $img := $resource -}}
+  {{- if gt $resource.Width 1400 -}}
+    {{- $img = $resource.Resize "1400x webp q82" -}}
+  {{- end -}}
+<figure>
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- else -}}
+<figure>
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- end -}}

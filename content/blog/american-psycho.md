@@ -5,5 +5,5 @@ draft: true
 tags: ["movies","Feminism",]
 categories: []
 showToc: true
-description: ""
+description: "Reflections on American Psycho through the lens of feminism."
 ---
